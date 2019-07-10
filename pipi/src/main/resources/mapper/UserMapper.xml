@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper    
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="lgp.dao.PPUserMapper">
+
+
+<insert id="insert" parameterType="PPUser" >
+INSERT INTO ppuser(ppuserid,ppusername,ppuserpwd,ppuserimg) values(#{userId},#{userName},#{userPwd},#{userImg})
+</insert>
+
+<select id="select" resultType="ppUser">
+select * from ppuser where ppuserid=#{userid} 
+</select>
+
+<update id="update" parameterType="PPUser" >
+UPDATE ppuser SET ppusername=#{userName} , ppuserpwd=#{userPwd}, ppuserimg=#{userImg}  where ppuserid=#{userId}
+</update>
+
+<!-- 
+
+<select id="selectAll" resultType="user">
+select * from user
+</select>
+
+<insert id="insert" parameterType="user" useGeneratedKeys="true">
+INSERT INTO user(userid,username,userage,usergender,userpwd) values(#{userid},#{username},#{userage},#{usergender},#{userpwd})
+</insert>
+
+<select id="select" resultType="user">
+select * from user where userid=#{userid} and userpwd=#{userpwd}
+</select>
+
+
+<update id="update">
+UPDATE user SET userpwd=#{usernewpwd} WHERE userid=#{userid} and userpwd=#{userpwd}
+</update>
+<select id="bar" resultType="Bookshop_Userage">
+select * from shop_age
+</select>
+<select id="pie" resultType="Bookshop_Gender">
+select * from shop_gender
+</select>
+<select id="map" resultType="Bookshop_Province">
+select * from shop_province
+</select>
+ -->
+</mapper>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper    
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="lgp.dao.CommentMapper">
+
+
+<select id="selectByEs" resultType="comment">
+select * from comment where esid=#{esId} 
+</select> 
+
+<insert id="insert" parameterType="comment" >
+INSERT INTO comment(esid,commenterid,contentid,kind) values(#{esId},#{commenterId},#{contentId},#{kind})
+</insert>
+
+<select id="selectByCommenterId" resultType="int">
+select esid from comment where commenterid=#{userId} 
+</select> 
+</mapper>

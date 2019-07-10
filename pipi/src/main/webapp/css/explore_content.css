@@ -1,0 +1,22 @@
+.explore_content_item {
+	margin: 20px 0;
+	height: 200px;
+	border-bottom: 10px solid #FFFFFF;
+}
+
+.explore_content_item>div:first-child {
+	width: 200px;
+	padding: 20px;
+	float: left;
+}
+
+.explore_content_item>div:last-child {
+	position: relative;
+	font-size: 3rem;
+	top: 40px;
+	padding: 20px;
+}
+
+.explore_content_item>div>img {
+	width: 150px;
+}

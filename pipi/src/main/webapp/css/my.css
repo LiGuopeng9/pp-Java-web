@@ -1,0 +1,56 @@
+img {
+	width: 100%;
+}
+
+.my {
+	font-size: 3rem;
+}
+
+.my_top {
+	background: #EEEEEE;
+	margin-top: 50px;
+	height: 250px;
+	border-bottom: #fff;
+}
+
+.my_top>div {
+	padding: 20px;
+	float: left;
+	height: 300px;
+}
+
+.my_top>div:first-child {
+	width: 400px;
+}
+
+.my_top>div>img {
+	width: 200px;
+	border-radius: 100px;
+}
+
+.my_top>div:last-child>div>p {
+	float: left;
+	margin-right: 20px;
+}
+
+.my_mid {
+	margin-top: 30px;
+}
+
+.my_bottom {
+	margin-top: 30px;
+}
+
+.my_item {
+	height: 200px;
+	font-size: 4rem;
+	border-bottom: 5px solid #FFFFFF;
+	border-top: 5px solid #FFFFFF;
+}
+
+.my_item>button {
+	width: 100%;
+	font-size: 4rem;
+	text-align: center;
+	padding: 30px;
+}

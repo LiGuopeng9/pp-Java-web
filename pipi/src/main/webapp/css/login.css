@@ -1,0 +1,23 @@
+#login_logo {
+	width: 1080px;
+}
+
+.login_form {
+	margin-top: 200px;
+	font-size: 3rem;
+}
+
+.login_input {
+	font-size: 3rem;
+}
+
+.login_btn {
+	font-size: 3rem;
+	border-radius: 20px;
+	width: 200px;
+	margin: 10px;
+}
+.register_btn {
+	position: relative;
+	top: -105px;
+}

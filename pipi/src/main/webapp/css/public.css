@@ -1,0 +1,11 @@
+body {
+	font-size: 2rem;
+	background: #F7F7F7;
+	width: 1080px;
+}
+
+ul, p, li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}

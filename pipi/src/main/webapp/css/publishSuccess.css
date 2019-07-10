@@ -1,0 +1,17 @@
+.publishSuccess_top{
+  text-align: center;
+  height: 150px;
+  font-size: 4rem;
+   border-bottom: 10px solid #fff;
+}
+.publishSuccess_mid{
+  width: 100%;
+  margin-top: 200px;
+  height: 600px;
+  text-align: center;
+  font-size: 4rem;
+}
+.publishSuccess_mid_btn{
+  font-size: 4rem;
+  margin-top: 200px;
+}

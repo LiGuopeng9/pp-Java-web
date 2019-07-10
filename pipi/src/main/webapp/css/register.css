@@ -1,0 +1,36 @@
+.inputfile {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.input_a {
+  background: #D0EEFF;
+  border: 1px solid #99D3F5;
+  border-radius: 4px;
+  overflow: hidden;
+  color: #1E88C7;
+  text-decoration: none;
+  text-indent: 0;
+}
+
+#register_logo {
+  width: 1080px;
+}
+
+.register_form {
+  margin-top: 200px;
+  font-size: 3rem;
+}
+
+.register_input {
+  font-size: 3rem;
+}
+
+.register_btn {
+  font-size: 3rem;
+  border-radius: 20px;
+  width: 200px;
+  margin: 10px;
+}

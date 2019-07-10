@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper    
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="lgp.dao.EssaryMapper">
+
+
+<insert id="insert" parameterType="Essary"  useGeneratedKeys="true">
+INSERT INTO essary(contentid,publisherid,kind,starnum,dislikenum,commentnum) values(#{contentId},#{publisherId},#{kind},#{starnum},#{dislikenum},#{commentnum})
+</insert>
+<select id="select" resultType="int">
+select esid from essary where contentid=#{contentId} and publisherid=#{publisherId} and kind=#{kind}
+</select>
+<select id="selectAll" resultType="Essary">
+select * from essary 
+</select>
+
+<select id="selectByPublisherId" resultType="Essary">
+select * from essary  where publisherid=#{publisherid}
+</select>
+
+
+<select id="selectById" resultType="essary">
+select * from essary where esid=#{esId} 
+</select>
+<update id="updateStar">
+UPDATE essary SET starnum=#{starnum} WHERE esid=#{esId}
+</update>
+<update id="updateDislike">
+UPDATE essary SET dislikenum=#{dislikenum} WHERE esid=#{esId}
+</update>
+
+<update id="updateComment">
+UPDATE essary SET commentnum=#{commentnum} WHERE esid=#{esId}
+</update>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+<select id="selectAll" resultType="user">
+select * from user
+</select>
+
+<insert id="insert" parameterType="user" useGeneratedKeys="true">
+INSERT INTO user(userid,username,userage,usergender,userpwd) values(#{userid},#{username},#{userage},#{usergender},#{userpwd})
+</insert>
+
+<select id="select" resultType="user">
+select * from user where userid=#{userid} and userpwd=#{userpwd}
+</select>
+
+
+<update id="update">
+UPDATE user SET userpwd=#{usernewpwd} WHERE userid=#{userid} and userpwd=#{userpwd}
+</update>
+<select id="bar" resultType="Bookshop_Userage">
+select * from shop_age
+</select>
+<select id="pie" resultType="Bookshop_Gender">
+select * from shop_gender
+</select>
+<select id="map" resultType="Bookshop_Province">
+select * from shop_province
+</select>
+ -->
+</mapper>

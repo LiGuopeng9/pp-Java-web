@@ -1,0 +1,15 @@
+.message_top {
+	width: 100%;
+	text-align: center;
+	font-size: 3rem;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	background: #EEEEEE;
+}
+
+.mes_item {
+	width: 330px;
+	margin: 10px;
+	text-align: center;
+}

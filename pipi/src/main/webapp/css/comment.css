@@ -1,0 +1,167 @@
+.comment_top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  font-size: 3rem;
+  text-align: center;
+  border-bottom: 10px solid #e6e6e6;
+  margin-bottom: 50px;
+  background: #F7F7F7;
+}
+
+.comment_top>img {
+
+  position: absolute;
+  width: 100px;
+  left: 25px;
+  top: 25px;
+}
+
+.comment_top>p {
+  font-size: 3rem;
+  position: relative;
+  top: 30px;
+}
+
+.comment_mid {
+  margin-top: 150px;
+  border-bottom: 30px solid #e6e6e6;
+  margin-bottom: 20px;
+}
+
+.comment_mid_top {
+  height: 200px;
+}
+
+.comment_mid_top>img {
+  display: inline;
+  width: 150px;
+  margin: 25px;
+  border-radius: 75px;
+}
+
+.comment_mid_top>p {
+  display: inline;
+}
+
+.comment_mid_middle {
+  text-align: justify;
+}
+
+.comment_mid_middle>p {
+  padding: 0 50px;
+}
+
+.comment_mid_middle_detial {
+  padding: 0 auto;
+}
+
+.comment_mid_middle_detial>img {
+  width: 95%;
+}
+
+.comment_mid_middle_detial>video {
+  width: 95%;
+}
+
+.comment_mid_bottom>ul {
+  margin-top: 20px;
+  height: 150px;
+}
+
+.comment_mid_bottom>ul>li {
+  width: 200px;
+  display: inline-block;
+  padding: 20px;
+  font-size: 2rem;
+}
+
+.comment_mid_bottom>ul>li:last-child {
+  float: right;
+}
+
+.comment_mid_bottom>ul>li>a>img {
+  width: 80px;
+  display: inline;
+}
+
+.comment_mid_bottom>ul>li>a>p {
+  display: inline;
+}
+
+.comment_item {
+  border-bottom: 20px solid #e6e6e6;
+  margin-bottom: 20px;
+}
+
+.comment_item_top {
+  height: 200px;
+  border-bottom: 2px solid #e6e6e6;
+}
+
+.comment_item_top>img {
+  display: inline;
+  width: 150px;
+  margin: 25px;
+  border-radius: 75px;
+}
+
+.comment_item_top>p {
+  display: inline;
+}
+
+.comment_item_bottom {
+  text-align: justify;
+}
+
+.comment_item_bottom>p {
+  padding: 0 50px;
+}
+
+.comment_item_bottom_detial {
+  padding: 0 auto;
+}
+
+.comment_item_bottom_detial>img {
+  width: 60%;
+  position: relative;
+  left: 20px;
+}
+
+.comment_item_bottom_detial>video {
+  width: 60%;
+  position: relative;
+  left: 20px;
+}
+
+#comment_bottom_p {
+  text-align: center;
+  color: #ADB5BD;
+  margin-bottom: 200px;
+}
+
+.comment_input {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+ background: #FaFaFa;
+  border-top: 1px solid red;
+  height: 200px;
+  padding-top: 10px;
+
+}
+
+.comment_form {
+  margin-left: 50px;
+  margin-right: 50px;
+  
+}
+
+.comment_form>div>input {
+  font-size: 3rem;
+}
+.comment_form>div>button {
+  font-size: 3rem;
+}

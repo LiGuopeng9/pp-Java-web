@@ -1,0 +1,42 @@
+.nav_bottom {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	border-top: 1px solid red;
+	background: #F7F7F7;
+}
+
+.nav_bottom_box {
+	width: 200px;
+	margin: 10px;
+	display: block;
+}
+
+.nav_bottom_box1 {
+	float: left;
+	margin-right: 10px;
+}
+
+.nav_bottom_box2 {
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.nav_bottom_box3 {
+	float: right;
+	margin-left: 10px;
+}
+
+.nav_bottom_item {
+	margin: auto;
+	text-align: center;
+}
+
+.nav_bottom_item>img {
+	margin: 0 auto;
+	width: 100px;
+}
+
+#nav_bottom_add_img {
+	width: 150px;
+}
